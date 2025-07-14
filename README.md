@@ -1,4 +1,4 @@
-# {{ Robust Contextual State Estimation with Limited Measurement Data }}
+# Robust Contextual State Estimation with Limited Measurement Data
 
 This repository contains the data sets used in the research titled [*Robust Contextual State Estimation with Limited Measurement Data*](https://doi.org/10.1016/j.epsr.2024.111268).
 
