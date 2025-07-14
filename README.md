@@ -1,29 +1,38 @@
-# {{ Repository_Name }}
+# {{ Robust Contextual State Estimation with Limited Measurement Data }}
 
-The aim of this repository is to provide details of the data sets and code used in the related research titled *{{ Research_Title }}*.
+This repository contains the data sets used in the research titled [*Robust Contextual State Estimation with Limited Measurement Data*](https://doi.org/10.1016/j.epsr.2024.111268).
 
 ## Data Description
 
 The following files are included in this repository:
-* `{{ File_1_Name }}`: {{ File_1_Description }}
-* `{{ File_2_Name }}`: {{ File_2_Description }}
-
+* `case33bw/delta_1_x_true.csv`: Contains 10,000 instances of voltage magnitudes and angles for the 33-bus system under low variability conditions.
+* `case33bw/delta_1_z.csv`: Contains 10,000 instances of measurements (voltage magnitudes, angles, active/reactive power injections and flows) for the 33-bus system under low variability conditions.
+* `case33bw/delta_5_x_true.csv`: Contains 10,000 instances of voltage magnitudes and angles for the 33-bus system under medium variability conditions.
+* `case33bw/delta_5_z.csv`: Contains 10,000 instances of measurements (voltage magnitudes, angles, active/reactive power injections and flows) for the 33-bus system under medium variability conditions.
+* `case33bw/delta_20_x_true.csv`: Contains 10,000 instances of voltage magnitudes and angles for the 33-bus system under high variability conditions.
+* `case33bw/delta_20_z.csv`: Contains 10,000 instances of measurements (voltage magnitudes, angles, active/reactive power injections and flows) for the 33-bus system under high variability conditions.
+* `case39/delta_1_x_true.csv`: Contains 100,000 instances of voltage magnitudes and angles for the 39-bus system under low variability conditions.
+* `case39/delta_1_z.csv`: Contains 100,000 instances of measurements (voltage magnitudes, angles, active/reactive power injections and flows) for the 39-bus system under low variability conditions.
+* `case39/delta_5_x_true.csv`: Contains 100,000 instances of voltage magnitudes and angles for the 39-bus system under medium variability conditions.
+* `case39/delta_5_z.csv`: Contains 100,000 instances of measurements (voltage magnitudes, angles, active/reactive power injections and flows) for the 39-bus system under medium variability conditions.
+* `case39/delta_20_x_true.csv`: Contains 100,000 instances of voltage magnitudes and angles for the 39-bus system under high variability conditions.
+* `case39/delta_20_z.csv`: Contains 100,000 instances of measurements (voltage magnitudes, angles, active/reactive power injections and flows) for the 39-bus system under high variability conditions.
+  
 ## References
 
-[1] {{ Reference_1_Details }}
+J. G. De la Varga, J. M. Morales, S. Pineda, Robust Contextual State Estimation with Limited Measurement Data, [https://arxiv.org/abs/2507.08767](https://arxiv.org/abs/2507.08767)
 
 ## Developed by
 
-* {{ Developer_1_Name }} ([{{ Developer_1_Email }}](mailto:{{ Developer_1_Email }})) - [GitHub: {{ Developer_1_GitHub }}](https://github.com/{{ Developer_1_GitHub }})  
-* {{ Developer_2_Name }} ([{{ Developer_2_Email }}](mailto:{{ Developer_2_Email }})) - [GitHub: {{ Developer_2_GitHub }}](https://github.com/{{ Developer_2_GitHub }})  
-* {{ Developer_3_Name }} ([{{ Developer_3_Email }}](mailto:{{ Developer_3_Email }})) - [GitHub: {{ Developer_3_GitHub }}](https://github.com/{{ Developer_3_GitHub }})
+* J.G. De la Varga ([josegv@uma.es](mailto:josegv@uma.es)) - [GitHub: mrJGV](https://github.com/mrJGV)  
+* J.M. Morales ([juan.morales@uma.es](mailto:juan.morales@uma.es)) - [GitHub: Juanmi82mg](https://github.com/Juanmi82mg)
+* S. Pineda ([spineda@uma.es](mailto:spineda@uma.es)) - [GitHub: salvapineda](https://github.com/salvapineda)  
 
 ## Funding
 
 This work was supported by the following projects:  
-* {{ Funding_Project_1_Details }}  
-* {{ Funding_Project_2_Details }}  
-* {{ Funding_Project_3_Details }}
+* Spanish Ministry of Science and Innovation (AEI/10.13039/501100011033) through project PID2023-148291NB-I00.
+* Spanish Ministry of Science and Innovation training program for PhDs with fellowship number PRE2021-098958.
 
 ## How to cite the repo and the paper?
 
@@ -31,22 +40,23 @@ If you want to cite the related paper or this repository, please use the followi
 
 * Article:
 ```
-@article{{ {{ Article_Citation_Key }},
-title = {{ {{ Article_Title }} }},
-journal = {{ {{ Journal_Name }} }},
-volume = {{ {{ Volume }} }},
-pages = {{ {{ Pages }} }},
-year = {{ {{ Year }} }},
-author = {{ {{ Authors }} }}
+@misc{delavarga2025RobustContextualSE,
+      title={Robust Contextual State Estimation with Limited Measurement Data}, 
+      author={J. G. De la Varga and J. M. Morales and S. Pineda},
+      year={2025},
+      eprint={2507.08767},
+      archivePrefix={arXiv},
+      primaryClass={math.OC},
+      url={https://arxiv.org/abs/2507.08767}, 
 }
 ```
 * Repository:
 ```
-@misc{{ {{ Repository_Citation_Key }},
-author={{ {{ Repository_Author }} }},
-year={{ {{ Repository_Year }} }},
-title = {{ {{ Repository_Title }} }},
-howpublished = {{\url{{ {{ Repository_URL }} }} }}
+@misc{RobustContextualSE2025,
+author={J.G. De la Varga and J.M. Morales and S. Pineda},
+year={2025},
+title = {Robust Contextual State Estimation with Limited Measurement Data},
+howpublished = {\url{https://github.com/groupoasys/RobustContextualSE}}
 }
 ```
 
