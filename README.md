@@ -4,7 +4,7 @@ This repository contains the data sets used in the research titled [*Robust Cont
 
 ## Data Description
 
-The following files are included in this repository:
+The following files are included in this repository and are accesible through our [Google Drive](https://drive.google.com/drive/folders/1G_5u9X9WqCPdIoaRkhRCt1UmD8KNL7Ro):
 * `case33bw/delta_1_x_true.csv`: Contains 10,000 instances of voltage magnitudes and angles for the 33-bus system under low variability conditions.
 * `case33bw/delta_1_z.csv`: Contains 10,000 instances of measurements (voltage magnitudes, angles, active/reactive power injections and flows) for the 33-bus system under low variability conditions.
 * `case33bw/delta_5_x_true.csv`: Contains 10,000 instances of voltage magnitudes and angles for the 33-bus system under medium variability conditions.
